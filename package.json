@@ -20,6 +20,7 @@
     "@babel/core": "^7.18.5",
     "@babel/preset-react": "^7.17.12",
     "@rollup/plugin-image": "^2.1.1",
+    "autoprefixer": "^10.4.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup-plugin-postcss": "^4.0.2"
@@ -31,6 +32,8 @@
     "@rollup/plugin-replace": "^4.0.0",
     "rollup": "^2.75.7",
     "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-serve": "^1.1.0"
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "sass": "^1.52.3"
   }
 }

@@ -5,6 +5,12 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import replace from '@rollup/plugin-replace';
 import image from '@rollup/plugin-image';
+import scss from 'rollup-plugin-scss';
+import postcss from 'rollup-plugin-postcss';
+import autoprefixer from 'autoprefixer';
+
+
+
 
 export default {
   input: "src/index.js",
@@ -15,12 +21,19 @@ export default {
   },
   plugins: [
     image(),
+  
+       
+
     nodeResolve({
       extensions: [".js"],
     }),
     replace({
+        preventAssignment: true,
       'process.env.NODE_ENV': JSON.stringify( 'development' )
     }),
+    postcss({
+        extensions: [".css"],
+      }),
     babel({
       presets: ["@babel/preset-react"],
     }),
