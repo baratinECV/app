@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c rollup.config.js -w"
+    "dev": "rollup -c rollup.config.js -w",
+    "build": "rollup -c && react-scripts build"
   },
   "repository": {
     "type": "git",
