@@ -1,0 +1,12 @@
+@import "../variables/variables.scss";
+@import "../fonts/font.scss";
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: $font-path;
+    font-weight: 600;
+    text-decoration: none;
+    color: $white;
+}

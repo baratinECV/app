@@ -1,0 +1,10 @@
+@import '../theme/variables/variables.scss';
+@import '../theme/fonts/font.scss';
+@import '../theme/messageVendeur/messageVender.scss';
+@import '../theme/messageResponse/messageResponse.scss';
+@import '../theme/messageUser/messageUser.scss';
+
+.container-chat {
+  padding: 0 16px;    
+  margin-bottom: 110px;  
+}

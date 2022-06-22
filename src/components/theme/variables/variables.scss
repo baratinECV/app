@@ -1,0 +1,94 @@
+//color
+
+$orange: #DE8E00;
+$blue: #292D43;
+$light-blue: #E3F0F6;
+$green: #07AA7C;
+$red: #DB3D63;
+$beige: #FEFAF7;
+$white: #FFFFFF;
+$black: #000000;
+
+//background-color
+
+.bg-orange {
+    background-color: $orange;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-light-blue {
+    background-color: $light-blue;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.bg-beige {
+    background-color: $beige;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+//margin padding variable
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.m-40 {
+    margin: 40px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}

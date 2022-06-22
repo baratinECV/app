@@ -1,0 +1,25 @@
+@import "../theme/variables/variables.scss";
+
+.container-hour {
+    margin: 0 16px;
+    margin-bottom: 14px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #000;
+
+    .status {
+        position: relative;
+        padding-left: 15px;
+        font-size: 12px;
+
+        &::before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            background-color: $green;
+            position: absolute;
+            border-radius: 50%;
+            top: 5px;
+            left: 0;
+        }
+    }
+}

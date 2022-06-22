@@ -1,0 +1,47 @@
+.container-buble {
+
+    .buble {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 15px;
+        left: 20px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .container-conseil {
+        position: relative;
+
+        .conseil {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 215px;
+            height: 60px;
+            border-radius: 30px;
+            border-bottom-left-radius: 0;
+            position: fixed;
+            bottom: 30px;
+            left: 80px;
+    
+            p {
+                color: white;
+                font-size: 13.2px;                
+            }    
+            .close {
+                width: 24px;
+                height: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 30px;
+                position: absolute;
+                bottom: 40px;
+                right: 0;
+            }
+        }
+        
+    }
+}
